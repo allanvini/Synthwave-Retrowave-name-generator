@@ -19,13 +19,15 @@ body {
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    justify-content: center;
 }
 
 h2 {
+    justify-content: center;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 10px rgb(200, 0, 250), 0px 0px 10px rgb(200, 0, 250), 0px 0px 10px rgb(200, 0, 250), 0px 0px 10px rgb(200, 0, 250), 0px 0px 20px rgb(200, 0, 250), 0px 0px 20px rgb(200, 0, 250), 0px 0px 20px rgb(200, 0, 250), 0px 0px 20px rgb(200, 0, 250);
     font-family: 'auto-techno';
-    font-size: 32px;
+    font-size: 31px;
     margin: 0;
     top: 10%;
     position: absolute;
@@ -39,9 +41,11 @@ h1 {
     font-family: 'Edge Racer Italic';
     font-size: 48px;
     text-shadow: 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 20px #FFFFFF, 0px 0px 20px #FFFFFF, 0px 0px 20px #FFFFFF, 0px 0px 20px #FFFFFF;
-    margin: 0;
+}
+
+#btnHold {
     position: absolute;
-    top: 100%;
+    top: 90%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -50,11 +54,6 @@ h1 {
 button {
     font-size: 32px;
     text-shadow: 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
     width: 500px;
     height: 50px;
     background-color: purple;
@@ -65,6 +64,22 @@ button {
 }
 
 #box {
-    height: 10em;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    html {
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        height: 100vw;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
 }
