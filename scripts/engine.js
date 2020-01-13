@@ -1,4 +1,5 @@
-var namesDataBase = ["NetScape 1991",
+var namesDataBase = [
+    "NetScape 1991",
     "Carpenter",
     "Brut",
     "Miami",
