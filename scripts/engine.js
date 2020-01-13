@@ -1,5 +1,4 @@
-var namesDataBase = [
-    "NetScape 1991",
+var namesDataBase = ["NetScape 1991",
     "Carpenter",
     "Brut",
     "Miami",
@@ -104,15 +103,15 @@ var namesDataBase = [
 
 function start() {
     var div = document.getElementById('box');
-    var h1 = document.createElement('h1');
-    h1.textContent = generateName();
-    div.appendChild(h1);
+    var h2 = document.createElement('h2');
+    h2.textContent = generateName();
+    div.appendChild(h2);
 
     document.getElementById('refresh').addEventListener('click', function() {
         div.innerHTML = "";
-        h1.innerHTML = "";
-        h1.textContent = generateName();
-        div.appendChild(h1);
+        h2.innerHTML = "";
+        h2.textContent = generateName();
+        div.appendChild(h2);
     });
 }
 

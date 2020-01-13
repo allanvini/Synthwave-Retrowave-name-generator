@@ -28,6 +28,14 @@ body {
 }
 
 h2 {
+    font-weight: lighter;
+    color: #6d00d3;
+    font-family: 'Edge Racer Italic';
+    font-size: 54px;
+    text-shadow: 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 20px #FFFFFF, 0px 0px 20px #FFFFFF, 0px 0px 20px #FFFFFF, 0px 0px 20px #FFFFFF;
+}
+
+h1 {
     justify-content: center;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 10px rgb(200, 0, 250), 0px 0px 10px rgb(200, 0, 250), 0px 0px 10px rgb(200, 0, 250), 0px 0px 10px rgb(200, 0, 250), 0px 0px 20px rgb(200, 0, 250), 0px 0px 20px rgb(200, 0, 250), 0px 0px 20px rgb(200, 0, 250), 0px 0px 20px rgb(200, 0, 250);
@@ -40,14 +48,6 @@ h2 {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-}
-
-h1 {
-    font-weight: lighter;
-    color: #6d00d3;
-    font-family: 'Edge Racer Italic';
-    font-size: 54px;
-    text-shadow: 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 20px #FFFFFF, 0px 0px 20px #FFFFFF, 0px 0px 20px #FFFFFF, 0px 0px 20px #FFFFFF;
 }
 
 #btnHold {
