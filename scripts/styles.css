@@ -20,7 +20,11 @@
 }
 
 body {
-    background-image: linear-gradient(30deg, rgb(37, 0, 51), rgb(60, 0, 84));
+    background: url('https://orig05.deviantart.net/dc13/f/2016/098/e/d/rolly_rocket_by_valenberg-d9y6rvp.gif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     text-align: center;
 }
 
